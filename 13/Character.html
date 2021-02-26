@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <title>Marvel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+     <link rel="icon" href="img/marvel.png">   <!--選單中的小圖-->
+      <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <style>
+        body{
+           margin: 0px;
+           padding: 0px;
+            font-family:"微軟正黑體"; 
+         background-color: black;
+            background-size: 100%;
+            background-position:top;
+            background-attachment: fixed;
+        }
+    .navbar-brand {
+          display: inline-block;
+          padding-top: 0.3125rem;
+          padding-bottom: 0.3125rem;
+          margin-right: 1rem;
+          font-size: 40px;
+          line-height: inherit;
+          white-space: nowrap;
+        }
+        .sh{
+            width: 80%;
+            margin:auto;
+            float: center;
+        }
+        .h h1{
+            color:ghostwhite;
+            width:200px;
+             margin:auto;
+            clear: both;
+            text-align: center;
+        }
+        .show{
+           width:15%;
+           display:inline-block;
+           margin:  2%;
+       }
+       .show img{
+           width:100%;
+       }
+       .show div{
+           padding: 15px 0%;
+       }
+        .show div p{
+            font-size: 18px;
+             text-align: center;
+             color:ghostwhite;
+        }
+       .show:hover{
+           box-shadow: 1px 2px 10px dimgray;
+       }
+       .show:hover img{
+           opacity: 0.7;
+       }
+       .show:hover div{
+           color: darkgray;
+       }
+        #oppo{
+              font-family:"微軟正黑體"; 
+              display: inline;
+          }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.9rem;
+            padding-left: 0.9rem;
+        }
+        footer{
+            width: 100%;
+            background-color: #5c0000;
+            clear: both;
+            color: darkgray;
+            text-align: center;
+            font-size: 15px;
+        }
+        #light{
+            background-color:darkred;
+        }
+        #light a{
+            color:ghostwhite;
+            font-size: 25px;
+        } 
+        #light a :hover{
+            color: darkgray;
+        }
+         @media screen and (max-width:480px){
+             .show{
+               width:100%;
+               margin: 20px 0px;
+           }
+            footer{
+                font-size: 5px;
+            }
+       }
+         @media screen and (min-width:480px) and (max-width:760px){
+              footer{
+                font-size: 10px;
+            }
+          }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" id="light">
+  <a class="navbar-brand" href="#">Marval</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+             <a class="nav-item nav-link " href="index.html" ><i class="fas fa-home"><div id="oppo">首頁</div> </i></a>
+             <a class="nav-item nav-link " href="Character.html" ><i class="fas fa-user"><div id="oppo"> 角色介紹</div></i></a>
+             <a class="nav-item nav-link" href="movie.html" ><i class="fas fa-film"><div id="oppo"> 近期電影</div></i></a>
+             <a class="nav-item nav-link" href="game.html" ><i class="fas fa-gamepad"> <div id="oppo">衍生遊戲作品</div></i></a>
+        </div>
+  </div>
+</nav>  
+
+   <div class = "h">
+       <h1>角色介紹</h1>
+   </div>
+   
+   <div class="sh">
+   <a href="captain_America.html"  target="_blank"><div class="show">
+    <img src="img/captain_America.jpg" alt=""  width:1502px;>
+   <div><p>美國隊長</p></div>
+</div></a>
+  <a href="ironman.html" target="_blank"><div class="show">
+    <img src="img/ironman.jpg" alt=""  width:1502px;>
+    <div><p>鋼鐵人</p></div>
+</div></a>
+  <a href="hulk.html" target="_blank"><div class="show x">
+    <img src="img/hulk.jpg" alt=""  width:1502px;>
+    <div ><p>浩克</p></div>
+</div></a>
+  <a href="black_widow.html" target="_blank"><div class="show">
+    <img src="img/black_widow.jpg" alt=""  width:1502px;>
+       <div><p>黑寡婦</p></div>
+</div></a>
+  <a href="hawkeye.html" target="_blank"><div class="show x">
+    <img src="img/hawkeye.jpg" alt=""  width:1502px;>
+    <div ><p>鷹眼</p></div>
+</div></a>
+  <a href="thor.html" target="_blank"><div class="show x">
+    <img src="img/thor.jpg" alt=""  width:1502px;>
+   <div><p>索爾</p></div>
+</div></a>
+  <a href="antman.html" target="_blank"><div class="show x">
+    <img src="img/antman.jpg" alt=""  width:1502px;>
+    <div><p>蟻人</p></div>
+</div></a>
+  <a href="spiderman.html" target="_blank"><div class="show">
+    <img src="img/spiderman.jpg" alt=""  width:1502px;>
+    <div><p>蜘蛛人</p></div>
+</div></a>
+  <a href="strange.html" target="_blank"><div class="show">
+    <img src="img/strange.jpg" alt=""  width:1502px;>
+       <div><p>奇異博士</p></div>
+</div></a>
+  <a href="BLACK_panther.html" target="_blank"><div class="show x">
+    <img src="img/BLACK_panther.jpg" alt=""  width:1502px;>
+    <div><p>黑豹</p></div>
+</div> </a>
+   </div>
+   <footer>此網頁所使用圖片及資料非我們所有，單純資料分享，請勿下載或作為商業用途。若造成侵權行為，請權力所有人或其代理告知，本人將完全配合修正改進或刪除處理，謝謝!<br>@liverRangers</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

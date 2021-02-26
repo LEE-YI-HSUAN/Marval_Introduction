@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+     <link rel="icon" href="img/marvel.png">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <style>
+        body{
+            background-color: black;
+            margin: 0px;
+            padding: 0px;
+            font-family:"微軟正黑體"; 
+               }
+        #container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        #barLeft{
+            width: 15%; 
+            float: left;
+            display: block;
+        }
+        #main{
+            width: 70%;            
+            float: left;
+        }
+        #barRight{
+            width: 15%;
+            display: block;
+            float: left;
+        }
+        footer{
+            width: 100%;
+            height: 50px;
+            background-color: #5c0000;
+            clear: both;
+            color: darkgray;
+            text-align: center;
+            font-size: 8px;
+        }
+       .show img{
+            width:100%;
+            border-radius: 50%;
+       }
+       .show {
+            margin: 10px;
+       }
+       .show:hover img{
+            opacity: 0.7;
+       }
+       .show:hover div{
+            font-weight:  bold;
+            color: mediumblue;
+       }
+        #i{
+            border: 0px solid ;
+            margin-bottom:5%;
+            border-radius: 30px;
+       }
+        #pp{
+             padding:0px 10%;  
+             width:100px;
+             display: inline-block;
+             margin-bottom: 10px;
+        }
+        .show1 img{
+           width:100%;
+           border-radius: 50%;
+       }
+       .show1 {
+           margin: 10px;
+       }
+       .show1:hover img{
+           opacity: 0.7;
+       }
+        #pp{
+            background-color:dimgray;
+            width:80%;
+            border-radius: 30px;
+        }
+        #iii{
+            color: ghostwhite;
+            text-align: center;
+        }
+        #pp {
+            text-align: left;
+        }
+        footer{
+            width: 100%;
+            height: 10%;
+            background-color: #5c0000;
+            clear: both;
+            color: darkgray;
+            text-align: center;
+            font-size: 15px;
+        }
+        #light{
+            background-color: darkred;
+        }
+        #light a{
+            color:ghostwhite;
+            font-size: 25px;
+            font-family:"微軟正黑體"; 
+        }
+        #light a :hover{
+            color: darkgray;
+        }
+          #oppo{
+              font-family:"微軟正黑體"; 
+              display: inline;
+          }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.9rem;
+            padding-left: 0.9rem;
+        }
+        @media screen and (max-width:480px){
+            #main,#container{
+               width:100%;
+            }
+            #barLeft,#barRight{
+                width:0%;
+            }
+            #pp{
+                width: 100%;
+                background-color: black;
+                text-align: left;
+                font-size: 10px;
+                padding: 0px;  
+                padding-right: 10%;  
+            }
+            #pp h3{
+                font-size: 20px;
+            }
+            footer{
+                font-size: 5px;
+            }
+       }
+         @media screen and (min-width:480px) and (max-width:760px){
+              footer{
+                font-size: 10px;
+            }
+          }
+
+    </style>
+</head>
+<body>
+   
+<nav class="navbar navbar-expand-lg navbar-light" id="light">
+     <a class="navbar-brand" href="#">Marval</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
+         <div class="navbar-nav">
+             <a class="nav-item nav-link " href="index.html" ><i class="fas fa-home"><div id="oppo">首頁</div> </i></a>
+             <a class="nav-item nav-link " href="Character.html" ><i class="fas fa-user"><div id="oppo"> 角色介紹</div></i></a>
+             <a class="nav-item nav-link" href="movie.html" ><i class="fas fa-film"><div id="oppo"> 近期電影</div></i></a>
+             <a class="nav-item nav-link" href="game.html" ><i class="fas fa-gamepad"> <div id="oppo">衍生遊戲作品</div></i></a>
+        </div>
+      </div>
+</nav>
+    
+<div id="container">
+    <sidebar id="barLeft">
+        <div class="show">
+            <a href="captain_America.html"><img src="img/captain.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="ironman.html"><img src="img/Ironman-512.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="hulk.html"><img src="img/hulkicon.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="black_widow.html"><img src="img/blackwindow.jpg" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="hawkeye.html"><img src="img/Hawkeye.png" alt=""  width:1502px;></a>
+        </div> 
+    </sidebar>
+      
+   <div id="main">
+        <div id="iii">
+           <h1>蟻人</h1>
+           <img src="img/antman-wallpaper_137130.png" alt="" id ="i" width="80%">
+           <div id="pp">
+           <ul>
+            <li><h3>人物簡介</h3></li>
+           <p>史考特·朗恩(Scott Lang)有著竊盜前科的電機工程師，偷竊技巧十分高超，其特質被漢克·皮姆挑選上成為第二代蟻人。有一個長期分居但非常疼愛的女兒凱西，和山姆打過一戰後被他看上身手。</p>
+            <li><h3>能力</h3></li>
+            <p>身體能夠縮小變大，控制昆蟲以螞蟻為主。採用了漢克·皮姆開發出可改變物質分子距離的「皮姆粒子」來改變人體和其他物體的大小，人體和其他物體充分接觸這種粒子就可以自由變大和縮小。他最大的狀態大約是100呎，最小狀態大約是0.5英寸。</p>
+            <li><h3>裝備</h3></li>
+            <ul>
+            <li><h5>蟻人戰甲</h5></li>
+            <p>蟻人頭部的面罩下面有一層超薄的電子機件，可以控制昆蟲，主要是螞蟻。裝在手套部位的"刺針"光槍。這些裝備通常都經過皮姆粒子處理，可以和他一起變化。</p>
+            </ul>
+            </ul>
+            </div>
+        </div>
+    </div>
+      
+    <sidebar id="barRight">
+        <div class="show1">
+            <a href="thor.html"><img src="img/thoricon.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show1">
+            <a href="antman.html"><img src="img/antmanbig.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show1">
+            <a href="spiderman.html"><img src="img/spidermanicon.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show1">
+            <a href="strange.html"><img src="img/strangeicon.jpg" alt=""  width:1502px;></a>
+        </div>
+        <div class="show1">
+            <a href="BLACK_panther.html"><img src="img/blackpathericon.jpg" alt=""  width:1502px;></a>
+        </div>
+    </sidebar>
+</div>
+      
+<footer>此網頁所使用圖片及資料非我們所有，單純資料分享，請勿下載或作為商業用途。若造成侵權行為，請權力所有人或其代理告知，本人將完全配合修正改進或刪除處理，謝謝!<br>@liverRangers</footer>
+   
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

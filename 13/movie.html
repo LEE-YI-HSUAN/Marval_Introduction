@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+     <link rel="icon" href="img/marvel.png">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <style>
+          body{
+              font-family:"微軟正黑體"; 
+          }
+        .sh{
+            width: 80%;
+            margin:auto;
+            float: center;
+        }
+        .sh h1{
+              text-align: center;
+             margin: 30px;
+        }
+        .sh div{
+          background-color: darkred;
+          font-size: 25px;
+          color: whitesmoke;
+        }
+        .sh iframe{
+              margin: 2%;
+        }
+        footer{
+            width: 100%;
+            height: 10%;
+            background-color: #5c0000;
+            clear: both;
+            color: darkgray;
+            text-align: center;
+            font-size: 15px;
+        }
+        #light{
+            background-color: darkred;
+        }
+        #light a{
+            color:ghostwhite;
+            font-size: 25px;
+        }
+        #light a :hover{
+            color: darkgray;
+        }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.9rem;
+            padding-left: 0.9rem;
+        }
+        .o{
+            padding-left: 10px;
+        }
+          #oppo{
+              font-family:"微軟正黑體"; 
+              display: inline;
+          }
+        @media screen and (max-width:480px){
+             .show{
+               width:100%;
+               margin: 20px 0px;
+           }
+            footer{
+                font-size: 5px;
+            }
+       }
+         @media screen and (min-width:480px) and (max-width:760px){
+              footer{
+                font-size: 10px;
+            }
+          }
+    </style>
+</head>
+<body>
+   
+   <nav class="navbar navbar-expand-lg navbar-light" id="light">
+  <a class="navbar-brand" href="#">Marval</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+             <a class="nav-item nav-link " href="index.html" ><i class="fas fa-home"><div id="oppo">首頁</div> </i></a>
+             <a class="nav-item nav-link " href="Character.html" ><i class="fas fa-user"><div id="oppo"> 角色介紹</div></i></a>
+             <a class="nav-item nav-link" href="movie.html" ><i class="fas fa-film"><div id="oppo"> 近期電影</div></i></a>
+             <a class="nav-item nav-link" href="game.html" ><i class="fas fa-gamepad"> <div id="oppo">衍生遊戲作品</div></i></a>
+        </div>
+  </div>
+</nav>  
+<div class="sh">
+    <h1>近期電影預告</h1>
+    <div class="o">現正上映</div> 
+<iframe width="45%" height="315" src="https://www.youtube.com/embed/8_iXX6t6nFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="mov"></iframe>
+<iframe width="45%" height="315" src="https://www.youtube.com/embed/ZrB7EdfPBJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="mov"></iframe>
+<div class="o">即將上映</div>
+<iframe width="45%" height="315" src="https://www.youtube.com/embed/6HLbCdJxfJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="mov"></iframe>
+</div>
+<footer>此網頁所使用圖片及資料非我們所有，單純資料分享，請勿下載或作為商業用途。若造成侵權行為，請權力所有人或其代理告知，本人將完全配合修正改進或刪除處理，謝謝!<br>@liverRangers</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

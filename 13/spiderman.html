@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> 
+     <link rel="icon" href="img/marvel.png">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <style>
+        body{
+            background-color: black;
+            margin: 0px;
+            padding: 0px;
+            font-family:"微軟正黑體"; 
+        }
+        #container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        #barLeft{
+            width: 15%;
+            float: left;
+            display: block;
+        }
+        #main{
+            width: 70%;            
+            float: left;
+        }
+        #barRight{
+            width: 15%;
+            display: block;
+            float: left;
+        }
+        footer{
+            width: 100%;
+            height: 200px;
+            clear: both;
+        }
+        .show img{
+            width:100%;
+            border-radius: 50%;
+       }
+       .show {
+            margin: 10px;
+       }
+       .show:hover img{
+            opacity: 0.7;
+       }
+       .show:hover div{
+            font-weight:  bold;
+            color: mediumblue;
+       }
+        #i{
+            border: 0px solid ;
+            margin-bottom:5%;
+           border-radius: 30px;
+       }
+        .show1 img{
+           width:100%;
+           border-radius: 50%;
+       }
+       .show1 {
+           margin: 10px;
+       }
+       .show1:hover img{
+           opacity: 0.7;
+       }
+        #pp{
+            padding:0px 10%;  
+            width:100px;
+            display: inline-block;
+            width:80%;
+            background-color:dimgray;
+            border-radius: 30px;
+        }
+        #iii{
+            color: ghostwhite;
+            text-align: center;
+        }
+        #pp {
+              text-align: left;
+              margin-bottom: 10px;
+        }
+        footer{
+            width: 100%;
+            height: 10%;
+            background-color: #5c0000;
+            clear: both;
+            color: darkgray;
+            text-align: center;
+            font-size: 15px;
+        }
+        #light{
+            background-color: darkred;
+        }
+        #light a{
+            color:ghostwhite;
+            font-size: 25px;
+        }
+        #light a :hover{
+            color: darkgray;
+        }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 0.9rem;
+            padding-left: 0.9rem;
+        }
+          #oppo{
+              font-family:"微軟正黑體"; 
+              display: inline;
+          }
+         @media screen and (max-width:480px){
+            #main,#container{
+               width:100%;
+            }
+            #barLeft,#barRight{
+                width:0%;
+            }
+            #pp{
+                width: 100%;
+                background-color: black;
+                text-align: left;
+                font-size: 10px;
+                padding: 0px;  
+                padding-right: 10%;  
+            }
+            #pp h3{
+                font-size: 20px;
+            }
+            footer{
+                font-size: 5px;
+            }
+       }
+         @media screen and (min-width:480px) and (max-width:760px){
+              footer{
+                font-size: 10px;
+            }
+          }
+
+    </style>
+</head>
+<body>
+   
+   <nav class="navbar navbar-expand-lg navbar-light" id="light">
+  <a class="navbar-brand" href="#">Marval</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center " id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+             <a class="nav-item nav-link " href="index.html" ><i class="fas fa-home"><div id="oppo">首頁</div> </i></a>
+             <a class="nav-item nav-link " href="Character.html" ><i class="fas fa-user"><div id="oppo"> 角色介紹</div></i></a>
+             <a class="nav-item nav-link" href="movie.html" ><i class="fas fa-film"><div id="oppo"> 近期電影</div></i></a>
+             <a class="nav-item nav-link" href="game.html" ><i class="fas fa-gamepad"> <div id="oppo">衍生遊戲作品</div></i></a>
+        </div>
+  </div>
+</nav>  
+    
+<div id="container">
+   <sidebar id="barLeft">
+        <div class="show">
+            <a href="captain_America.html"><img src="img/captain.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="ironman.html"><img src="img/Ironman-512.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="hulk.html"><img src="img/hulkicon.png" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="black_widow.html"><img src="img/blackwindow.jpg" alt=""  width:1502px;></a>
+        </div>
+        <div class="show">
+            <a href="hawkeye.html"><img src="img/Hawkeye.png" alt=""  width:1502px;></a>
+        </div> 
+    </sidebar>
+      
+    <div id="main">
+        <div id="iii">
+           <h1>蜘蛛人</h1>
+           <img src="img/spidermanc.jpg" alt="" id ="i" width="80%">
+           <div id="pp">
+           <ul>
+            <li><h3>人物簡介</h3></li>
+            <p>彼得·班傑明·帕克（Peter Benjamin Parker）住在皇后區的普通高中生，被蜘蛛咬傷後獲得蜘蛛的能力，化身蜘蛛人開始懲奸鬥惡。被東尼賞識招募加入復仇者聯盟的戰局後視其為恩師，卻促成他無心課業，成天為了調查外星武器的走私事件曠課。儘管東尼再三叮囑他遠離危險，但好勝心強烈的彼得仍想證明自己的能力，最後得知走私事件的幕後黑手是自己暗戀同學的父親，鼓起勇氣成功阻止他搶劫滿載復仇者武器的飛機，最終得到東尼的認同。東尼也為其製作嶄新的鋼鐵蜘蛛裝。</p>
+            <li><h3>能力</h3></li>
+              <ul>
+                  <li><h5>超級力量，力量級數4,200磅—25噸</h5></li>
+                  <li><h5>超級耐力，對傷害具有減輕的效果</h5></li>
+                  <li><h5>身手非常敏捷和靈活，並有著超人的平衡感</h5></li>
+                  <li><h5>超級的反射神經，反應速度是普通人的四十倍</h5></li>
+                  <li><h5>控制手腳產生靜電從而擁有吸附的能力</h5></li>
+                  <p>能夠像蜘蛛一樣在牆上行走</p>
+                  <p>蜘蛛人的戰鬥風格就是活用各種與地平面不同角度的各方平面，以自身的平衡、敏捷和反應並活用蛛絲所構成。</p>
+              </ul>
+            <li><h3>裝備</h3></li>
+             <ul>
+                  <li><h5>蛛網發射器（Web Shooters）</h5></li>
+                    <p>彼得自己所開發、可說是蜘蛛人最重要的裝備。彼得發現自己被蜘蛛咬了而有了蜘蛛一樣的超能力後，為了讓自己更加名副其實，而用自己的天才頭腦調配出了蜘蛛絲液體和製造這款用來發射液體使之變成蛛網的發射器。
+發射開關位於掌心，需要將中指與無名指彎曲、快速雙擊開關才能發動，這樣的設定是為了防止蜘蛛人在握拳時觸碰到開關導致不必要的誤射。
+蜘蛛人會在左右手各裝備一個發射器，每個發射器都有獨立的蛛絲液體儲藏盒。</p>
+                    <li><h5>蜘蛛絲</h5></li>
+                  <p>實為蜘蛛人所調配的特殊化學配方製成，平時是液體狀態，接觸到空氣就會變成類似蛛網的物質。能壓縮儲存於膠囊當中，透過手掌的「蛛網發射器」的控制裝置射出蜘蛛絲。蛛絲大約在兩個小時後就會自動分解消失，所以不會造成環境上的困擾。韌性極強，甚至能在短時間內束縛住浩克。至少可以承受一個一般成年人的重量，甚至是卡車的重量也能承受一定的時間。
+用途廣泛，蜘蛛人平常是用來當成交通工具在大樓間擺盪遊走，戰鬥時可依情況利用蛛網發射器調整成球狀體作遠距離打擊、封住對手眼睛、槍口等來制止攻擊，也可用來當成護盾、陷阱等。
+有時因應劇情需要，蜘蛛人也會研發有絕緣、防酸、耐火效果的蛛絲配方。</p>
+                     </ul>
+            </ul>
+            </div>
+        </div>
+    </div>
+      
+       <sidebar id="barRight">
+       <div class="show1">
+    <a href="thor.html"><img src="img/thoricon.png" alt=""  width:1502px;></a>
+</div>
+<div class="show1">
+        <a href="antman.html"><img src="img/antmanbig.png" alt=""  width:1502px;></a>
+</div>
+<div class="show1">
+    <a href="spiderman.html"><img src="img/spidermanicon.png" alt=""  width:1502px;></a>
+</div>
+<div class="show1">
+    <a href="strange.html"><img src="img/strangeicon.jpg" alt=""  width:1502px;></a>
+</div>
+<div class="show1">
+    <a href="BLACK_panther.html"><img src="img/blackpathericon.jpg" alt=""  width:1502px;></a>
+</div>
+       </sidebar>
+    </div>
+      <footer>此網頁所使用圖片及資料非我們所有，單純資料分享，請勿下載或作為商業用途。若造成侵權行為，請權力所有人或其代理告知，本人將完全配合修正改進或刪除處理，謝謝!<br>@liverRangers</footer>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
